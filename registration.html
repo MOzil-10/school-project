@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registration </title>
+        <link rel = "stylesheet" href = "registration.css">
+    </head>
+
+    <body>
+<div class = "container">
+<form action = "connect.php" method = "post">
+
+    <h2>Registration</h2>
+    <div class = "content">
+
+        <div class = "input-box">
+            <label for = "fullname">Full name </label>
+            <input type = "text" placeholder="Enter full name" name ="fullname"required>
+        </div>
+
+        <div class = "input-box">
+            <label for = "username">username </label>
+            <input type = "text" placeholder="Enter username" name ="username"required>
+        </div>
+
+
+
+        <div class = "input-box">
+            <label for = "email">Email </label>
+            <input type = "email" placeholder="Enter valid email address" name ="email"required>
+        </div>
+
+
+
+        <div class = "input-box">
+            <label for = "phonenumber">Phone number </label>
+            <input type = "tel" placeholder="Enter phone number" name ="phonenumber"required>
+        </div>
+
+
+
+        <div class = "input-box">
+            <label for = "password">Password </label>
+            <input type = "password" name="" id ="userPass" placeholder="Enter password" name ="password"required >
+        </div>
+
+
+
+        <div class = "input-box">
+            <label for = "cpassword">Confirm password </label>
+            <input type = "password"  name="" id ="userPass2" placeholder="Confirm password" name ="confirmpassword"required>
+           
+        </div>
+
+    </div>
+<div class="alert">
+
+    <p>By clicking sign up, you agree to <a href = "#">Terms,</a> <a href = "#">policy,</a>  and <a href = "#">cookies policy</a>. You may receive sms notifications from us and can opt out any time </p>
+
+</div>
+<div class = "button-container">
+    <button type = "submit">Register</button>
+</div>
+
+</form>
+
+
+</div>
+
+
+    </body>
+
+
+    </html>
